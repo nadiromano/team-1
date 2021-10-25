@@ -255,15 +255,22 @@ nav {
 }
 
 .news__filter__item--active {
-  border: #ff4747 solid 1px;
-  border-width: 0 0 3px 0;
   background-color: #dedede;
 }
 
+.news__filter__item--active::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 2.5px;
+  width: 80%;
+  background-color: #ff4747;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .news__filter__item__box {
-  display: flex;
-  align-items: center;
-  flex: 1;
 }
 
 .separetor {
