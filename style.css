@@ -570,3 +570,24 @@ box-sizing: border-box;
 .gallery_games_item:hover > p {
   visibility: visible;
 }
+
+/*Footer*/
+
+footer {
+  display: block;
+  background-color: var( --light-color-max);
+}
+
+.footer__nav_local{
+  background-color: var(--light-color);
+}
+
+.footer__logo {
+  width: 49px;
+  height: 49px;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
