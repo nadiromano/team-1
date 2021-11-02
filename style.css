@@ -573,7 +573,6 @@ box-sizing: border-box;
   visibility: visible;
 }
 
-<<<<<<< HEAD
 /*Footer*/
 
 footer {
@@ -689,7 +688,6 @@ footer {
   font-size: 12px;
 }
 
-=======
 /*Parental Control*/
 
 .parental_control_container {
@@ -728,4 +726,3 @@ cursor:pointer;
  transition-duration: 0.2s;
  transform: scale(1.05);
 }
->>>>>>> 0f21b1983212fa477ad9cfcf33a8015ced7a0243
