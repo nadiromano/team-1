@@ -536,19 +536,86 @@ a:visited {
   z-index: -3;
 }
 
-#gallery_games_logo {
+#gallery_games_logo1 {
   width: 50%;
   position: absolute;
-  top: 40%;
+  top: 45%;
   right: 25%;
+  transition-duration: 0.5s;
 }
 
-#gallery_games_logo_middle {
+.gallery_games_item:hover #gallery_games_logo1 {
+  top: 27%;
+  transition-duration: 0.5s;
+}
+
+#gallery_games_logo2 {
   width: 35%;
   position: absolute;
   top: 40%;
-  right: 30%;
+  right: 33%;
+  transition-duration: 0.6s;
 }
+
+.gallery_games_item:hover #gallery_games_logo2 {
+  top: 21%;
+  transition-duration: 0.6s;
+}
+
+#gallery_games_logo3 {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  transition-duration: 0.5s;
+}
+
+.gallery_games_item:hover #gallery_games_logo3 {
+  top: 34%;
+  transition-duration: 0.5s;
+}
+
+#gallery_games_logo4 {
+  width: 50%;
+  position: absolute;
+  top: 44%;
+  right: 23%;
+  transition-duration: 0.4s;
+}
+
+.gallery_games_item:hover #gallery_games_logo4 {
+  top: 30%;
+  transition-duration: 0.4s;
+}
+
+
+#gallery_games_logo5 {
+  width: 33%;
+  position: absolute;
+  top: 44%;
+  right: 35%;
+  transition-duration: 0.5s;
+}
+
+.gallery_games_item:hover #gallery_games_logo5 {
+  top: 21%;
+  transition-duration: 0.5s;
+}
+
+#gallery_games_logo6 {
+  width: 47%;
+  position: absolute;
+  top: 42%;
+  right: 27%;
+  transition-duration: 0.5s;
+}
+
+.gallery_games_item:hover #gallery_games_logo6 {
+  top: 23%;
+  transition-duration: 0.5s;
+}
+
+
 
 .gallery_games_item:hover {
   background-image: linear-gradient(
@@ -558,17 +625,13 @@ a:visited {
   );
 }
 
-.gallery_games_item:hover #gallery_games_logo,
-.gallery_games_item:hover #gallery_games_logo_middle {
-  top: 20%;
-  transition-duration: 0.5s;
-}
+
 
 .gallery_games_item > p {
   position: absolute;
   top: 50%;
   right: 35%;
-  font-size: 1em;
+  font-size: 0.9em;
   color: var(--light-color-max);
   visibility: hidden;
 }
