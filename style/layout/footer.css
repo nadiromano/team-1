@@ -1,0 +1,112 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-color-max);
+  /* align-items: center;
+    justify-content: center;*/
+}
+
+.footer__nav_local {
+  /*flex-direction: row;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--light-color);
+  /*margin: 5px 20px 40px 8px;*/
+}
+
+.footer__local-links {
+  padding-top: 30px;
+  padding-left: 80px;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.footer__link,
+.footer__link:link,
+.footer__link:visited {
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.footer__social-links {
+  flex-direction: row;
+}
+
+.footer__social-links > h5 {
+  display: flex;
+}
+
+.icon_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  justify-content: left;
+  width: 50px;
+}
+
+.footer__nav_network-links {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: left;
+  justify-content: space-between;
+  padding-left: 100px;
+  margin-left: 32px;
+  font: 16px;
+}
+
+.network__links,
+.network__links a:link,
+.network__links a:visited {
+  text-decoration: none;
+  justify-content: space-around;
+  background-color: var(--light-color-max);
+}
+
+.selector_country {
+  display: flex;
+}
+
+.footer__legal {
+  display: flex;
+}
+
+.nav_footer__legal {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+}
+
+.nav_footer__legal a:link {
+  display: flex;
+  flex-flow: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  font-size: 12px;
+}
