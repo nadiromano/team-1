@@ -1,0 +1,54 @@
+.about_society_container {
+    width: 100%;
+    max-height: 549;
+    
+    
+}
+
+.video_about {z-index: -100; position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    max-height: 549px;
+   }
+
+  .overlay_text {position:absolute;
+    z-index: 2; 
+    top: 22%;
+right: 37%;
+text-align: center;
+justify-content: center;}
+
+    .overlay_text h1 {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 600;
+        letter-spacing: -2px;
+        padding-bottom: 5px;
+    }
+
+.overlay_text p {
+    color:white;
+    font-size: 1.2em; 
+    padding-bottom: 25px;}
+
+    .overlay_text  button {
+        text-decoration: none;
+        color: black;
+        width: 155px;
+        font-size: 0.9em;
+        margin-right: 20px;
+        background-color: white;
+        padding: 17px;
+        border: 2px solid white;
+        cursor: pointer;
+        border-radius: 3px;
+
+    }
+
+
+    .overlay_text button:hover {
+        transition-duration: 0.1s;
+        outline: 3px solid white;
+    }
+
