@@ -5,11 +5,12 @@
     
 }
 
-.video_about {z-index: -100; position: relative;
+.video_about {z-index: -100; 
+    position: relative;
     overflow: hidden;
     object-fit: cover;
     width: 100%;
-    max-height: 549px;
+    max-height: 490px;
    }
 
   .overlay_text {position:absolute;
