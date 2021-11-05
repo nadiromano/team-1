@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .news__filter {
@@ -12,6 +12,7 @@
   justify-content: center;
   width: 80%;
   flex-direction: row;
+  position: relative;
   margin-left: 10%;
 }
 
@@ -21,6 +22,10 @@
   flex-basis: 10%;
   align-content: flex-start;
   margin-left: 10%;
+  overflow: hidden;
+}
+
+.news__filter__item__box h6 {
 }
 
 .news__filter__item {
@@ -63,10 +68,15 @@
   left: 50%;
   transform: translateX(-50%);
 }
-/*
-  .news__filter__item__box {
-  }
-  */
+
+.news__filter__icon svg {
+  display: none;
+  fill: var(--dark-color);
+  position: absolute;
+  height: 30px;
+  right: -50px;
+  top: 10px;
+}
 
 .separetor {
   background-color: var(--light-color);
@@ -117,19 +127,18 @@
 
 .card-body__info h5 {
   color: var(--primary-color);
-  font-size: 15px;
+  font-size: 1.2vw;
   letter-spacing: -1px;
 }
 
 .card-body__date {
-  font-size: 15px;
+  font-size: 1.1vw;
   font-weight: 600;
 }
 
 .card-body__title {
   margin: 2% 2% 0 4%;
-  font-size: 24px;
-
+  font-size: 1.5vw;
   line-height: 1.2;
 }
 
@@ -172,4 +181,82 @@ a:visited {
 
 .news-cta__button a:hover {
   outline-offset: 18px;
+}
+
+@media screen and (max-width: 1032px) {
+  .news__filter__item {
+    min-width: 25%;
+    text-align: center;
+  }
+
+  .news__filter__icon svg {
+    display: inline-block;
+  }
+
+  .news__card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 5px;
+    align-content: flex-start;
+    align-items: stretch;
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  .news__card {
+    flex: 1 2 35%;
+    margin: 0.35em;
+    background-color: var(--light-color-max);
+    transform: translateY(0);
+    width: 25%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__card {
+    flex: 1 1 80%;
+    margin: 0.35em;
+    background-color: var(--light-color-max);
+    transform: translateY(0);
+    width: 25%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .news__card-header img {
+    display: none;
+  }
+
+  .card-body__info h5 {
+    color: var(--primary-color);
+    font-size: 1.6vw;
+    letter-spacing: -1px;
+  }
+
+  .card-body__date {
+    font-size: 1.5vw;
+    font-weight: 600;
+  }
+
+  .card-body__title {
+    margin: 2% 2% 0 4%;
+    font-size: 1.9vw;
+    line-height: 1.2;
+  }
+
+  .card__body-description {
+    margin: 2% 4% 5% 4%;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .news__filter__item {
+    min-width: 25%;
+    text-align: center;
+  }
+
+  .news__filter__item h6 {
+    font-size: 2.5vw;
+  }
 }
