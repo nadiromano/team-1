@@ -1,0 +1,51 @@
+.play-section {
+  box-sizing: border-box;
+}
+.play-container {
+  height: 570px;
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: nowrap;
+  background: url(../../asset/img/hero-medium-console-7x2-xl.jpg.adapt.crop5x2.1455w.jpg)
+    no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-left: 30px;
+}
+.play-item1 {
+  padding: 20px 0px 0px 0px;
+  max-height: 576px;
+  width: 50%;
+  color: white;
+}
+.play-sub-items {
+  height: 560px;
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.play-sub-items h6 {
+  font-size: 16px;
+  padding: 0px 0px 40px 70px;
+}
+.play-sub-item1,
+.play-sub-item2,
+.play-sub-item3-container {
+  width: auto;
+  color: white;
+}
+.play-sub-item3 {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9) !important;
+  padding: 15px;
+  border-radius: 4%;
+  margin-left: 70px;
+  border: 2px solid rgb(255, 255, 255);
+  display: inline;
+}
+.play-sub-item1 {
+  padding-left: 70px;
+}

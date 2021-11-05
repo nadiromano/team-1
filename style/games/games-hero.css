@@ -1,0 +1,20 @@
+.games__hero__container {
+  height: 60vh;
+  overflow: hidden;
+}
+
+.games__hero {
+  position: relative;
+}
+
+.games__hero__video {
+  width: 100vw;
+}
+
+.games__hero__badge {
+  position: absolute;
+  bottom: 28%;
+  left: 0;
+  z-index: 5000;
+  width: 100vw;
+}
