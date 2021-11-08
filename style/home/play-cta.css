@@ -1,51 +1,354 @@
-.play-section {
-  box-sizing: border-box;
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container-play {
+    width: 100%;
+    min-height: 533px;
+    max-height: 623px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop3x5.320w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 533px;
+    max-height: 623px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 24px;
+  }
+  .sub-play {
+    width: 272px;
+  }
+  .sub-play h6 {
+    font-size: 14px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .butt-play a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
 }
-.play-container {
-  height: 570px;
-  display: flex;
-  flex-basis: 50%;
-  flex-wrap: nowrap;
-  background: url(../../asset/img/hero-medium-console-7x2-xl.jpg.adapt.crop5x2.1455w.jpg)
-    no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  padding-left: 30px;
+@media screen and (min-width: 375px) and (max-width: 639px) {
+  .container-play {
+    width: 100%;
+    min-height: 624px;
+    max-height: 1064px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop3x5.767w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 624px;
+    max-height: 1064px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 24px;
+  }
+  .sub-play {
+    width: 361px;
+  }
+  .sub-play h6 {
+    font-size: 14px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 12px 0px;
+    text-align: center;
+  }
+  .butt-play a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
 }
-.play-item1 {
-  padding: 20px 0px 0px 0px;
-  max-height: 576px;
-  width: 50%;
-  color: white;
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .container-play {
+    width: 100%;
+    min-height: 1065px;
+    max-height: 1278px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop3x5.767w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 1065px;
+    max-height: 1278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 24px;
+  }
+  .sub-play {
+    min-width: 544px;
+    max-width: 620px;
+  }
+  .sub-play h6 {
+    font-size: 14px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 12px 0px;
+    text-align: center;
+    max-width: 150px;
+    font-size: 14px;
+  }
+  .butt-play a {
+    color: white;
+    text-decoration: none;
+  }
 }
-.play-sub-items {
-  height: 560px;
-  display: flex;
-  flex-basis: 25%;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding-bottom: 30px;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container-play {
+    width: 100%;
+    min-height: 384px;
+    max-height: 511px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop2x1.1023w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 384px;
+    max-height: 511px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 396px 32px 60px;
+  }
+  .sub-play {
+    min-width: 312px;
+    max-width: 419px;
+  }
+  .sub-play h6 {
+    font-size: 14px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 12px 0px;
+    text-align: center;
+    max-width: 150px;
+    font-size: 14px;
+  }
+  .butt-play a {
+    color: white;
+    text-decoration: none;
+  }
 }
-.play-sub-items h6 {
-  font-size: 16px;
-  padding: 0px 0px 40px 70px;
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+  .container-play {
+    width: 100%;
+    min-height: 409px;
+    max-height: 546px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop5x2.1455w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 409px;
+    max-height: 546px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px 526px 32px 75px;
+  }
+  .sub-play {
+    min-width: 422px;
+    max-width: 567px;
+  }
+  .sub-play h6 {
+    font-size: 14px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 12px 0px;
+    text-align: center;
+    max-width: 150px;
+    font-size: 14px;
+  }
+  .butt-play a {
+    color: white;
+    text-decoration: none;
+  }
 }
-.play-sub-item1,
-.play-sub-item2,
-.play-sub-item3-container {
-  width: auto;
-  color: white;
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+  .container-play {
+    width: 100%;
+    min-height: 546px;
+    max-height: 579px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop5x2.1455w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 546px;
+    max-height: 579px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px 733px 32px 106px;
+  }
+  .sub-play {
+    min-width: 567px;
+    max-width: 598px;
+  }
+  .sub-play h6 {
+    font-size: 14px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 12px 0px;
+    text-align: center;
+    max-width: 150px;
+    font-size: 14px;
+  }
+  .butt-play a {
+    color: white;
+    text-decoration: none;
+  }
 }
-.play-sub-item3 {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.9) !important;
-  padding: 15px;
-  border-radius: 4%;
-  margin-left: 70px;
-  border: 2px solid rgb(255, 255, 255);
-  display: inline;
+@media screen and (min-width: 1440px) and (max-width: 1455px) {
+  .container-play {
+    width: 100%;
+    min-height: 579px;
+    max-height: 582px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop5x2.1455w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 579px;
+    max-height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px 733px 32px 106px;
+  }
+  .sub-play {
+    min-width: 598px;
+    max-width: 605px;
+  }
+  .sub-play h6 {
+    font-size: 18px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 12px 0px;
+    text-align: center;
+    max-width: 150px;
+    font-size: 14px;
+  }
+  .butt-play a {
+    color: white;
+    text-decoration: none;
+  }
 }
-.play-sub-item1 {
-  padding-left: 70px;
+@media screen and (min-width: 1456px) and (max-width: 1919px) {
+  .container-play {
+    width: 100%;
+    min-height: 415px;
+    max-height: 548px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop7x2.1920w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 415px;
+    max-height: 548px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 744px 32px 168px;
+  }
+  .sub-play {
+    min-width: 544px;
+    max-width: 605px;
+  }
+  .sub-play h6 {
+    font-size: 18px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 12px 0px;
+    text-align: center;
+    max-width: 150px;
+    font-size: 14px;
+  }
+  .butt-play a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container-play {
+    width: 100%;
+    min-height: 548px;
+    background: url(../../asset/img/play-cta/hero-medium-console-7x2-xl.jpg.adapt.crop7x2.1920w.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  } 
+  .play-contents {
+    width: 100%;
+    min-height: 548px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 976px 32px 400px;
+  }
+  .sub-play {
+    min-width: 544px;
+    max-width: 605px;
+  }
+  .sub-play h6 {
+    font-size: 18px;
+    color: white;
+  }
+  .butt-play {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2%;
+    padding: 12px 24px;
+    margin: 12px 0px;
+    text-align: center;
+    max-width: 150px;
+    font-size: 14px;
+  }
+  .butt-play a {
+    color: white;
+    text-decoration: none;
+  }
 }
