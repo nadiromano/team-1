@@ -185,7 +185,7 @@ ion-icon:hover{
 @media only screen and (min-width: 500px) and (max-width: 834px) {
   .footer__nav-network {
     grid-row: row1 / row2;
-    grid-column: col1 / col2;
+    grid-column: col-start / col-end;
   }
 }
 
@@ -215,7 +215,7 @@ ion-icon:hover{
 
 @media only screen and (min-width: 500px) and (max-width: 834px) {
   .footer__dropdwn {
-    grid-column: col1 / col-end;
+    grid-column: col-start / col-end;
     grid-row: row2 / row3;
     align-content: center;
     justify-content: center;
@@ -283,7 +283,7 @@ ion-icon:hover{
 
 @media only screen and (min-width: 500px) and (max-width: 834px) {
   .footer__legal {
-    grid-column: col1 / col2;
+    grid-column: col-start / col-end;
     grid-row: row3 / row-end;
   }
 }
@@ -299,7 +299,7 @@ ion-icon:hover{
 
 @media only screen and (min-width: 500px) and (max-width: 834px) {
   .nav_footer__legal {
-    grid-column: col1 / col2;
+    grid-column: col-start / col-end;
     grid-row: row3 / row-end;
   }
 }
