@@ -83,67 +83,77 @@
     </nav>
   </header>
   <!-- hero -->
-  <main> 
-    <section class="hero-section">
-      <div class="hero-container">
-        <div class="item1">
-          <div class="sub-items">
-            <picture>
-              <img class="sub-item1" src="asset/img/bf-2042-adaptive-hero-hazard-zone-logo-7x2-xl.png.adapt.crop5x2.1455w.png" alt="">
-            </picture>
-            <p>
-              <h6 class="sub-item2">
-                Scopri la nuova ed entusiasmante esperienza multigiocatore, Battlefield™ Hazard Zone!
-              </h6>
-            </p>
-            <div class="sub-item3-container">
-              <a class="sub-item3" href="#">Ulteriori Informazioni</a>
-            </div>
-          </div>
+<main>
+  <section>
+    <div class="container-hero">
+      <div class="hero-contents-large-screen">
+        <div class="head-cont-large-screen">
+          <h1>Escape disponibile ora</h1>   
+        </div>
+        <div class="sub-cont-large-screen">
+          <h6>Escape introduce la nuova mappa Passo della Tempesta, la Leggenda Ash, l'SMG C.A.R. e molto altro!</h6>
+        </div>
+        <div class="butt-cont-large-screen">
+          <a href="#">Gioca ora</a>
         </div>
       </div>
-    </section>
-  </main>
+    </div>
+    <div class="hero-contents">
+      <div class="head-cont">
+        <h1>Escape disponibile ora</h1>   
+      </div>
+      <div class="sub-cont">
+        <h6>Escape introduce la nuova mappa Passo della Tempesta, la Leggenda Ash, l'SMG C.A.R. e molto altro!</h6>
+      </div>
+      <div class="butt-cont">
+        <a href="#">Gioca ora</a>
+      </div>
+    </div>
+  </section>
+</main>
   <!------ gallery_games ------>
   <section class=gallery_games>
     <h3>Giochi in evidenza</h3>
-    <div class="gallery_games_container1">
+    <div class="gallery_games_container">
       
-      <a href="#"><div class="gallery_games_item">
+      
+      
+            <a href="#"><input type="checkbox" id="trigger_gg1"/><div class="gallery_games_item"><label for="trigger_gg1"id="dots_gallery_games"> 
         <img id="gallery_games_image" src="asset\img\games\battlefield-2042.jpg" alt="Battlefied 2042">
           <img id="gallery_games_logo1" src="asset\img\games\logos\battlefield-2042-mono-logo-svg.svg" alt="logo Battlefied 2042"> 
-          <p>Sito ufficiale</p>
+           <p>Sito ufficiale</p></input>
+     </label>
         </div></a>
 
-        <a href="#"><div class="gallery_games_item">
+        <a href="#"><input type="checkbox" id="trigger_gg2"/><div class="gallery_games_item"><label for="trigger_gg2"id="dots_gallery_games"> 
           <img id="gallery_games_image" src="asset\img\games\fifa22-key-art.jpg.adapt.crop1x1.767p.jpg" alt="FIFA22">
           <img id="gallery_games_logo2" src="asset\img\games\logos\fifa22-mono-logo.svg" alt="logo FIFA 22">
-          <p>Sito ufficiale</p></div></a>
+          <p>Sito ufficiale</p></label></div></a>
 
-          <a href="#"> <div class="gallery_games_item">
+          <a href="#"><input type="checkbox" id="trigger_gg3"/><div class="gallery_games_item"><label for="trigger_gg3"id="dots_gallery_games"> 
             <img id="gallery_games_image" src="asset\img\games\f1-2021-keyart.jpg.adapt.crop1x1.767p.jpg"  alt="F121">
             <img id="gallery_games_logo3" src="asset\img\games\logos\f1-2021-mono-logo.svg" alt="logo F121">
-            <p>Sito ufficiale</p></div></a>
-    </div>
-    <div class="gallery_games_container2">
-      <a href="#"> <div class="gallery_games_item">
+            <p>Sito ufficiale</p></label></div></a>
+    
+    
+      <a href="#"> <input type="checkbox" id="trigger_gg4"/><div class="gallery_games_item"><label for="trigger_gg4"id="dots_gallery_games"> 
         <img id="gallery_games_image" src="asset\img\games\nfshpr-keyart-1x1.jpg"  alt="Need for speed Hot Pursuit remastered">
         <img id="gallery_games_logo4" src="asset\img\games\logos\nfshpr-logo-white.png" alt="logo Need for speed Hot Pursuit remastered">
-        <p>Sito ufficiale</p></div></a>
+        <p>Sito ufficiale</p></label></div></a>
 
-        <a href="#"><div class="gallery_games_item">
+        <a href="#"> <input type="checkbox" id="trigger_gg5"/><div class="gallery_games_item"><label for="trigger_gg5"id="dots_gallery_games"> 
           <img id="gallery_games_image" src="asset\img\games\apex-legends-keyart.jpg.adapt.crop1x1.767p.jpg"  alt="Apex Legends">
           <img id="gallery_games_logo5" src="asset\img\games\logos\apex-legends-mono-logo.png" alt="logo Apex Legends">
-          <p>Sito ufficiale</p></div></a> 
+          <p>Sito ufficiale</p></label></div></a> 
 
-          <a href="#"><div class="gallery_games_item">
+          <a href="#"> <input type="checkbox" id="trigger_gg6"/><div class="gallery_games_item"><label for="trigger_gg6"id="dots_gallery_games"> 
         <img id="gallery_games_image" src="asset\img\games\the-sims-4-keyart.jpg.adapt.crop1x1.767p.jpg"  alt="The Sims 4">
         <img id="gallery_games_logo6" src="asset\img\games\logos\the-sims-4-mono-logo.png" alt="logo The Sims 4">
-        <p>Sito ufficiale</p></div></a>
+        <p>Sito ufficiale</p></label></div></a>
     </div>
 
     <br>
-    <a href=""><button type="button" id="button_container">Ultimi Giochi</button> </a>
+    <a href=""><button type="button" id="button_gg_container">Ultimi Giochi</button> </a>
   </section>
   <!-- News -->
   <section class="news">
@@ -326,21 +336,17 @@
         </div>
   </section>
   <!-- Play CTA-->
-  <section class="play-section">
-    <div class="play-container">
-      <div class="play-item1">
-        <div class="play-sub-items">
-          <picture>
-            <img class="play-sub-item1" src="asset/img/ea-play-logo-coral-hero-logo-small.svg">
-          </picture>
-          <p>
-            <h6 class="play-sub-item2">
-              Non limitarti al gioco. Gioca al massimo. Sblocca ricompense <br> esclusive, contenuti per i soli membri e una libreria dei migliori titoli.
-            </h6>
-          </p>
-          <div class="play-sub-item3-container">
-            <a class="play-sub-item3" href="#">Iscriviti subito</a>
-          </div>
+  <section>
+    <div class="container-play">
+      <div class="play-contents">
+        <div class="play-cont">
+          <img src="asset/img/ea-play-logo-coral-hero-logo-small.svg" alt="">   
+        </div>
+        <div class="sub-play">
+          <h6>Non limitarti al gioco. Gioca al massimo. Sblocca ricompense esclusive, contenuti per i soli membri e una libreria dei migliori titoli.</h6>
+        </div>
+        <div class="butt-play">
+          <a href="#">Iscriviti subito</a>
         </div>
       </div>
     </div>
