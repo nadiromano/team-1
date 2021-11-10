@@ -1,0 +1,110 @@
+.play-main-logo {
+    max-width: 800px;
+    width: 100%;
+    margin: 50px 0px 30px 0px;
+}
+.positive-play-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.art-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 120px;
+}
+.art-cont h2 {
+    margin: 25px 0;
+    font-size: 44px;
+    color: #161616;
+    font-weight: 600;
+}
+.art-cont p {
+    font-weight: 400;
+    color: #323232;
+}
+.art-cont a {
+    margin: 30px;
+    text-decoration: none;
+}
+.art-cont a span {
+    padding: 12px 24px;
+    color: white;
+    background-color: #FF4747;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.art-cont a span:hover {
+    padding: 16px 28px;   
+}
+.play-anchor {
+    color: #FF4747;
+}
+.loading {
+    border: 2px solid #a3a3a388;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
+    margin: 0px 150px 25px 150px;
+    border-radius: 3px;
+}
+.loading span {
+    color: #A3A3A3;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.loading span:first-child {
+    border: 1px solid #A3A3A3;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px 20px;
+}
+.loading span:hover {
+    color: #161616;
+    border-color: #161616;
+}
+.loading:hover {
+    border: 2px solid #A3A3A3;
+}
+.impegni {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding: 0 120px;
+}
+.impegni h2 {
+    margin: 25px 0;
+    font-size: 44px;
+    color: #161616;
+    font-weight: 600;
+}
+.impegni-grid {
+    margin: 0 10% 50px 10%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+    grid-gap: 1rem;
+}
+.impegni-cards {
+    aspect-ratio: 2 / 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../asset/img/positive-play/ea-tile-generic-for-overlay.jpg.adapt.crop16x9.652w.jpg);
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.302);
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.impegni-cards:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 15px 21px rgba(0, 0, 0, 0.46);
+}
