@@ -43,14 +43,14 @@ footer {
   font-size: 15px;
 }
 
-/*@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 500px) and (max-width: 834px) {
   .footer__local-links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-}*/
+}
 
 .footer__nav-local {
   display: flex;
@@ -60,11 +60,13 @@ footer {
   margin-bottom: 9px;
 }
 
-/*@media only screen and (min-width: 321px) {
+@media only screen and (min-width: 500px) and (max-width: 834px) {
   .footer__nav-local {
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
   }
-}*/
+}
 
 .footer__nav-local-link, 
 .footer__nav-local-link:link,
@@ -86,12 +88,12 @@ footer {
   flex-direction: column;
 }
 
-/*@media only screen and (max-width: 766px) {
+@media only screen and (min-width: 500px) and (max-width: 834px) {
   .footer__social-links{
-    border-top: 1px solid var(--light-color);
+    border-top: 2px solid var(--light-color);
     padding-top: 4px;
   }
-}*/
+}
 
 .footer__social-links>h5 {
   display: flex;
@@ -132,11 +134,11 @@ ion-icon:hover{
   /*max-width: 1120px;*/
 }
 
-/*@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 500px) and (max-width: 834px) {
   .footer__network {
     padding: 40px 22px 30px 22px;
   }
-}*/
+}
 
 .footer__network-content {
   display: flex;
@@ -158,6 +160,17 @@ ion-icon:hover{
   margin-left: 30px;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 834px) {
+  .footer__network-content-links {
+    display: grid;
+    grid-template-columns: [col-start] 20px [col1] 1fr [col2] 1fr [col-end];
+    grid-template-rows: [row-start] 35px [row1] 30px [row2] 30px [row3] 45px [row-end];
+    gap: 10px;
+    margin: 0;
+  }
+}
+
+
 .footer__nav-network {
   display: grid;
   grid-row-start: row1-start;
@@ -167,6 +180,13 @@ ion-icon:hover{
   margin-bottom: 10px;
   align-items: center;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 834px) {
+  .footer__nav-network {
+    grid-row: row1 / row2;
+    grid-column: col1 / col2;
+  }
 }
 
 .network__links,
@@ -191,6 +211,15 @@ ion-icon:hover{
   grid-column-end: col-end;
   align-content: end;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 834px) {
+  .footer__dropdwn {
+    grid-column: col1 / col-end;
+    grid-row: row2 / row3;
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 .footer__dropdwn-btn{
@@ -252,6 +281,13 @@ ion-icon:hover{
   align-content: space-between;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 834px) {
+  .footer__legal {
+    grid-column: col1 / col2;
+    grid-row: row3 / row-end;
+  }
+}
+
 .nav_footer__legal {
   grid-column-start: first;
   grid-column-end: line3;
@@ -260,6 +296,13 @@ ion-icon:hover{
   justify-content: start;
   font-size: 12px;
 } 
+
+@media only screen and (min-width: 500px) and (max-width: 834px) {
+  .nav_footer__legal {
+    grid-column: col1 / col2;
+    grid-row: row3 / row-end;
+  }
+}
 
 .nav_footer__legal a:link {
   text-decoration: none;
