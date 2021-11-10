@@ -1,0 +1,24 @@
+.play__side-menu {
+  display: flex;
+  align-items: center;
+}
+
+.play__logo__img {
+  width: 5rem;
+  margin-right: 2rem;
+  padding-top: 0.4rem;
+}
+
+.play__menu__box {
+  display: flex;
+  gap: 30px;
+}
+
+.play__menu__items {
+  list-style: none;
+}
+
+.play__menu__item {
+  text-decoration: none;
+  color: var(--dark-color);
+}
