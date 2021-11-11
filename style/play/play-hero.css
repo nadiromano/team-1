@@ -1,0 +1,85 @@
+.play__hero {
+  width: 100vw;
+  height: 60vh;
+  background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2021/11/ea-play-hero-md-bf-2042-7x2-xl.jpg.adapt.crop7x2.1920w.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.play__hero__content__box {
+  width: 680px;
+  padding: 2% 0 0 10%;
+}
+
+.h3--hero {
+  line-height: 1.1;
+  color: white;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.p--hero {
+  color: white;
+  margin-top: 5px;
+}
+
+.play__hero__content__cta {
+  width: fit-content;
+  padding: 15px 30px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.play__main {
+  background: linear-gradient(
+      45deg,
+      rgba(9, 9, 121, 0) 50%,
+      rgba(218, 28, 92, 1) 100%
+    ),
+    #0d1042;
+
+  min-height: 1vh;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: background-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+
+.about__play {
+  width: 60vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h3--hero.nomar {
+  padding-top: 25%;
+  margin: 0;
+}
+
+.p--hero.big {
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 3%;
+  line-height: 1.2;
+}
+
+@keyframes background-animation {
+  0% {
+    background-size: 300%;
+  }
+  50% {
+    background-size: 100%;
+  }
+
+  100% {
+    background-size: 300%;
+  }
+}

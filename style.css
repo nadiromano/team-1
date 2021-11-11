@@ -9,6 +9,9 @@
 @import url(style/about/hero_society.css);
 @import url(style/about/info_society.css);
 @import url(style/positive-play/p-play.css);
+@import url(style/play/play-menu.css);
+
+@import url(style/play/play-hero.css);
 
 /* general setting */
 *,
