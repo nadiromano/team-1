@@ -2,7 +2,7 @@
     position: relative;
     top:0;
     bottom: 0;
-    left: 0;
+    left: 5%;
     right: 0;
     margin: auto;
     margin-top: 60px;
@@ -32,3 +32,67 @@ margin-bottom: 5px;}
     align-items: left;
     justify-content: left;
 font-size: 0.92em;}
+
+.society-box-container {
+    position: relative;
+    top:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    align-content: center;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 100px;
+}
+
+.dirigenzabox, .consigliobox{
+    width: 560px;
+    height: 300px;
+    background-color: wheat;
+    padding-left: 20px;
+    transition: background-size 0.8s ease-in-out;
+}
+
+.dirigenzabox {
+    background-image: url('../../asset/img/about/about-image.jpg.adapt.crop16x9.652w.jpg');
+    background-position: left bottom;
+}
+
+.consigliobox
+{
+    background-image: url('../../asset/img/about/about-image1.jpg.adapt.crop16x9.652w.jpg');
+    background-position: left bottom;
+}
+ .dirigenzabox h2, .consigliobox h2 {
+    color: white;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    font-size: 1.1em;
+    font-weight: 600;
+ }
+
+ .dirigenzabox:hover, .consigliobox:hover {
+    background-size: 105%;
+     
+    }
+
+ #freccia_society {
+     background: none;
+     border-radius: 100%;
+     border: none;
+     outline: 2px solid white;
+     font-size: 1.0em;
+     padding: 7px 10px;
+     color: white;
+     position: relative;
+    top: 56%;
+    transition-duration: 0.3s;
+    cursor: pointer;
+ }
+
+#freccia_society:hover {
+    transform: scale(1.2);
+}

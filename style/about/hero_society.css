@@ -15,7 +15,7 @@
 
   .overlay_text {position:absolute;
     z-index: 2; 
-    top: 22%;
+    top: 5%;
 right: 37%;
 text-align: center;
 justify-content: center;}
