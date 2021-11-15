@@ -1,24 +1,22 @@
 .about_society_container {
     width: 100%;
-    max-height: 549;
-    
+    max-height: 549px;
+    position: static;
     
 }
 
-.video_about {z-index: -100; 
-    position: relative;
+.video_about {z-index: -1; 
+    position: absolute;
     overflow: hidden;
     object-fit: cover;
     width: 100%;
     max-height: 490px;
    }
 
-  .overlay_text {position:absolute;
+  .overlay_text {
+      padding-top: 4%;
     z-index: 2; 
-    top: 5%;
-right: 37%;
-text-align: center;
-justify-content: center;}
+    text-align: center;}
 
     .overlay_text h1 {
         color: white;
