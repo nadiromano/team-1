@@ -1,8 +1,11 @@
-
+.ea-layout-society {
+    background-color: white;
+}
 
 .society_container { 
     position: static;
-    margin: 15% auto 5% auto;
+    border-top: 6vh solid white;
+    margin: 11.8% auto 0% auto;
     left: 0;
     right: 0;
     width: 48%;
@@ -14,19 +17,18 @@
 .society_row {display: flex;
 flex-direction: row; 
 text-align:left;
+padding: 6px 0 6px 0;
 
 }
 
  .society_container hr {  border: none;
-    border-top: 1px solid rgb(223, 223, 223);
-margin-top: 7px;
-margin-bottom: 5px;}
+    border-top: 1px solid rgb(223, 223, 223);}
 
 
 
 .society_cell.info {flex:1 ; font-weight: 600; 
     }
-
+ 
 
 .society_cell.info_exp {flex:2.5; text-align:left;
     align-items: left;
@@ -35,33 +37,39 @@ font-size: 0.92em;}
 
 .society-box-container {
     position: relative;
-    margin: auto;
     display: flex;
-    margin-top: 50px;
     width: 100%;
     align-content: center;
     justify-content: center;
     gap: 17px;
-    margin-bottom: 95px;
+    background-color: white;
+    border-top: 10vh solid white;
+    border-bottom: 6vh solid white;
+    
 }
 
 .dirigenzabox, .consigliobox{
     width: 561px;
     height: 300px;
-    background-color: wheat;
     padding-left: 20px;
-    transition: background-size 0.8s ease-in-out;
+    background-size: 100%;
+    background-position:  bottom center;
+    -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 .dirigenzabox {
     background-image: url('../../asset/img/about/about-image.jpg.adapt.crop16x9.652w.jpg');
-    background-position: left bottom;
+   
 }
 
 .consigliobox
 {
     background-image: url('../../asset/img/about/about-image1.jpg.adapt.crop16x9.652w.jpg');
-    background-position: left bottom;
+   
 }
  .dirigenzabox h2, .consigliobox h2 {
     color: white;
@@ -73,8 +81,7 @@ font-size: 0.92em;}
  }
 
  .dirigenzabox:hover, .consigliobox:hover {
-    background-size: 105%;
-     
+    background-size: 103%;
     }
 
  #freccia_society {
@@ -96,10 +103,3 @@ font-size: 0.92em;}
 }
 
 
-
-@media screen and (min-width: 1280px) and (max-width: 1799px){
-            
-.society_container { 
-    margin: 22% auto 5% auto;
-}
-}

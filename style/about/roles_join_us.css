@@ -1,14 +1,18 @@
+.roles_join {position: static;
+overflow-x: hidden;
+overflow-y:hidden;}
 
 .role_container_society {
     background-color: var(--primary-color);
-    width: 100%;
     height: 50vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
     color: white;
     margin-bottom: 3%;
+    border-bottom: 6vh solid white;
 }
 
 .role_container_society h3 {
@@ -26,25 +30,19 @@
 
 
 .opportunity_container_society {
-    width: 100%;
-    height: 701px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
     color: white;
-    
-    
-    
+    height: 70vh;
 }
 
-#video_opportunity { position: relative;
-    width: 100%;
-    height: 701px;
-    z-index: -100;
-    margin: 0 auto;
-    height: 100%;
-    object-fit: cover;
+
+#video_opportunity {
+    position: fixed;
+    z-index: -9999;
+
 }
 
 
@@ -58,7 +56,6 @@
 }
 
 .opportunity_container_society h1 {
-    
     font-size: 2.2em;
     width: 80%;
     font-weight: 600;
@@ -96,4 +93,4 @@
             width: 100%;
         }
 
-
+   
